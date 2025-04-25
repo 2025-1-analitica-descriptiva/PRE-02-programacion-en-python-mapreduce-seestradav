@@ -153,7 +153,7 @@ def create_marker(output_directory):
 #
 # Escriba la función job, la cual orquesta las funciones anteriores.
 #
-def run_job(input_directory, output_directory):
+def run_mapreduce_job(map,reduce,input_directory, output_directory):
     """Job"""
     sequence=load_input(input_directory)
     sequence=line_preprocessing(sequence)
