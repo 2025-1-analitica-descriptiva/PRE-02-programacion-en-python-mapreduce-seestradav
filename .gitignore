@@ -1,4 +1,6 @@
 .DS_Store
+files/raw/
+files/input/
 files/output/
 
 # Byte-compiled / optimized / DLL files
